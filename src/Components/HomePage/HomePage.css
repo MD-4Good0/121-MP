@@ -1,0 +1,56 @@
+.homepage {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    margin-top: 10rem;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.goto {
+    background-color: rgba(228, 93, 35, 0.766);
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.goto button {
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: black;
+    padding: 10px;
+}
+
+.goto button:hover {
+    cursor: pointer;
+    border: solid 2px;
+    color: black;
+    background-color: white;
+    padding: 8px;
+}
+
+p1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.hp-left-row {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}

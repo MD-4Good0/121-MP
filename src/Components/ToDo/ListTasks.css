@@ -1,0 +1,87 @@
+.list {
+    display: flex;
+    gap: 16px;
+}
+
+.list-section {
+    width: 25rem;
+    max-height: 500px;
+    height: 450px;
+    overflow: auto;
+    margin-bottom: 30px;
+}
+
+.list-section::-webkit-scrollbar {
+    width: 15px; /* Width of the scrollbar */
+  }
+  
+  .list-section::-webkit-scrollbar-track {
+    background: #f1f1f100; /* Background of the scrollbar track */
+  }
+  
+  .list-section::-webkit-scrollbar-thumb {
+    background-color: #c6c6c6; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners */
+    border: 3px solid #ffffff; /* Padding around the thumb */
+  }
+  
+  .list-section::-webkit-scrollbar-thumb:hover {
+    background-color: #7f7e7e; /* Color of the scrollbar thumb on hover */
+  }
+
+.list-header {
+    display: flex;
+    z-index: 1;
+    align-items: center;
+    height: 40px;
+    padding-left: 15px;
+    background-color: rgb(0, 106, 106);
+    color: white;
+    border-radius: 5px;    
+}
+
+.list-count {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 10%;
+    border-radius: 5px; 
+    color: black;
+}
+
+.list-task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #fbfbfb;
+    border: solid 2px #00000017;
+    box-shadow: 0px 0px 5px #00000028;
+}
+
+.list-task:hover {
+    background-color: #ededed;
+}
+
+.list-task img {
+    width: 20px;
+    cursor: pointer;
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+.list-task button {
+    border: none;
+    border-radius: 100px;
+    height: 20px;
+}
+
+.list-task input {
+    cursor: pointer;
+}

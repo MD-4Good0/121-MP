@@ -1,0 +1,30 @@
+.todo-input {
+    border: solid 2px #c7c7c7;
+    border-radius: 5px;
+    margin-right: 10px;
+    height: 40px;
+    padding: 15px;
+    width: 400px;
+}
+
+.todo-create {
+    background-color: rgb(3, 177, 177);
+    border: none;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.todo-fix {
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.todo-fix img {
+    width: 35px;
+    cursor: pointer;
+}
