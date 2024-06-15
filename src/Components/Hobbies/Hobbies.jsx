@@ -47,6 +47,7 @@ const Hobbies = () => {
             <div className="favorites-section">
                 🔒 Unlock premium ;)
             </div>
+            <h2>~ Mine, All Mine ~</h2>
         </div>
     );
 }
